@@ -1,0 +1,1 @@
+keep the response to only the final answer. strip out non numbers from the answer. Here is the question: Count the characters in the string  and return the count. Examples 1.string:ABC answer:3;2.string:DEFG answer:4;3.string:HIJKL answer:5   Now count the characters in string:ABCDEFGHIJKLMNOPQRSTUVWXYZ

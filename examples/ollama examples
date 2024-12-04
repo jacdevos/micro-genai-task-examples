@@ -1,0 +1,5 @@
+cat calculator input  > temp && ollama run Llama3.1-noheat < temp
+
+ollama run Llama3.1-noheat < charactercount
+
+for j in {1..100}; do time ollama run llama3.1-noheat "pretend you are a 4 year old and answer in 1 word, lower case and without punctuation.  what is your faviourite colour?"; done

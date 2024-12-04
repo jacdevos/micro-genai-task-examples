@@ -1,0 +1,8 @@
+FROM Llama3.1
+# Parameters
+PARAMETER temperature 0.00
+PARAMETER top_p 0.4
+PARAMETER top_k 1
+PARAMETER num_ctx 1024
+PARAMETER num_predict 2048
+PARAMETER num_gpu 1
